@@ -1,0 +1,4 @@
+Yasir Afridi,9610
+Aiman Shahzadi,29500
+Salman Khan,345000
+& "C:/Users/Yasir Afridi/AppData/Local/Programs/Python/Python312/python.exe" "d:/coding/python projects/ATM GUI APP.py",0
