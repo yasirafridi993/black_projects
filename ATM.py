@@ -49,7 +49,6 @@ class ATMApp:
     def show_account_menu(self):
         self.clear_frame()
         tk.Label(self.main_frame, text=f"Welcome, {self.name}", font=("Arial", 14), fg="black").pack(pady=10)
-        tk.Label(self.main_frame, text=f"Current Balance: {self.accounts[self.name]}", font=("Arial", 12), fg="black").pack(pady=5)
         tk.Button(self.main_frame, text="Deposit", command=self.deposit, width=25, bg="white", fg="black", activebackground="black", activeforeground="white").pack(pady=5)
         tk.Button(self.main_frame, text="Withdraw", command=self.withdraw, width=25, bg="white", fg="black", activebackground="black", activeforeground="white").pack(pady=5)
         tk.Button(self.main_frame, text="Check Account Detail", command=self.show_account_detail, width=25, bg="white", fg="black", activebackground="black", activeforeground="white").pack(pady=5)
@@ -111,4 +110,5 @@ class ATMApp:
 # if __name__== "main":
 root = tk.Tk() 
 app = ATMApp(root) 
+
 root.mainloop()
